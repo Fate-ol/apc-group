@@ -1,0 +1,235 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-tap-highlight-color: transparent; 
+}
+*, a:active, a:hover, a:focus{ 
+	outline: none !important; 
+}
+html
+{
+	height: 100%;
+}
+body
+{
+	position:relative;
+	max-width: 2600px;
+	min-width: 320px;
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	vertical-align: top;
+	margin: 0 auto; 
+	font-size: 14px;
+	line-height: 1.2;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	background: #fff;
+	font-weight: normal;
+} 
+input, textarea, button {
+	-webkit-border-radius: 0; 
+	font-family: 'Montserrat', sans-serif;
+}
+input[type="button"], input[type="submit"]
+{
+	appearance: none;
+}
+td
+{
+	font-size: 14px;
+	color: #000;
+}
+table 
+{
+	border-collapse: collapse;
+}
+a, a:active
+{
+	color: #000;
+	text-decoration: underline;
+}
+a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+ul, ol
+{
+	margin: 0;
+	padding: 0;
+}
+ol li
+{
+	margin: 10px 0 0 17px;
+	padding: 0;
+}
+li
+{
+	padding: 0;
+	margin: 0 0 0 15px;
+}
+img
+{
+	border: 0;
+	vertical-align: top;
+}
+p
+{
+	padding: 0;
+	margin: 15px 0;
+}
+
+
+/* -------- */
+
+.enter-section {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 15px 15px 85px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/vhod_form_fon.jpg") no-repeat center center / cover;
+}
+.enter-content {
+  position: relative;
+  max-width: 520px;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 91px 50px 103px 50px;
+}
+.enter-head {
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #282065;
+}
+.enter-text {
+  max-width: 340px;
+  margin: 21px auto 0 auto;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 135%;
+  color: #231F20;
+}
+.enter-18 {
+  font-weight: bold;
+  font-size: 77px;
+  color: #E2E1E3;
+}
+.enter-btn a {
+  display: inline-block;
+  padding: 11px 43px;
+  background: linear-gradient(180deg, #2D729A 0%, #215084 100%);
+  border-radius: 4px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+@media (min-width: 768px) {
+  .enter-btn a:hover {
+    background: linear-gradient(180deg, #282065 0%, #282065 100%);
+    transition: all 0.3s ease;
+  }
+}  
+.enter-logo {
+  pointer-events: none;
+  position: absolute;
+  top: 44px;
+  right: 40px;
+  bottom: 52px;
+  left: 40px;
+  border: 1px solid #B1B3B6;
+}
+.enter-logo > div {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%,50%);
+  padding: 0 18px;
+  background: #fff;
+}
+@media (max-width: 767px){
+  .enter-content {
+    position: relative;
+    max-width: 520px;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 51px 30px 83px 30px;
+  }
+  .enter-head {
+    font-size: 20px;
+  }
+  .enter-text {
+    margin: 21px auto 0 auto;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .enter-18 {
+    font-size: 60px;
+    padding: 10px 0;
+  }
+  .enter-logo {
+    pointer-events: none;
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    bottom: 32px;
+    left: 20px;
+    border: 1px solid #B1B3B6;
+  }
+  .enter-logo > div {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,50%);
+    padding: 0 18px;
+    background: #fff;
+  }
+  .enter-logo > div img {
+    width: 140px;
+  }
+
+}
+.enter-subtext {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  font-size: 50px;
+  line-height: 0.8;
+  opacity: 0.25;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+}
+@media (max-width: 1770px){
+  .enter-subtext {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1260px){
+  .enter-subtext {
+    font-size: 28px;
+  }
+}
+@media (max-width: 991px){
+  .enter-subtext {
+    font-size: 28px;
+  }
+}
+@media (max-width: 767px){
+  .enter-subtext {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
